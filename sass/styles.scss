@@ -49,9 +49,9 @@ body {
 
 .text-box {
   h1 {
-    font-size: 6.4rem;
+    font-size: 6.2rem;
     font-weight: 700;
-    margin-bottom: 3.6rem;
+    margin-bottom: 3.2rem;
   }
 
   p {
@@ -72,5 +72,70 @@ body {
     color: #fff;
     background-color: #333;
     padding: 2.4rem 4.8rem;
+  }
+}
+
+// media queries for smaller desktop
+@media screen and (max-width: 1200px) {
+  .header {
+    padding: 3.2rem 0;
+  }
+
+  .text-box {
+    h1 {
+      font-size: 5.2rem;
+      line-height: 0.9;
+      margin-bottom: 2.4rem;
+    }
+
+    p {
+      font-size: 2rem;
+      margin-bottom: 4.8rem;
+    }
+
+    a:link,
+    a:visited {
+      font-size: 1.4rem;
+      padding: 1.6rem 3.2rem;
+    }
+  }
+
+  .logo {
+    font-size: 2.4rem;
+  }
+}
+
+// media queries for tablet
+@media screen and (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+// media queries for mobile 
+@media screen and (max-width: 576px) {
+  .header {
+    padding: 2.4rem 0;
+  }
+
+  .text-box {
+    h1 {
+      font-size: 4.8rem;
+      margin-bottom: 1.6rem;
+
+    }
+
+    p {
+      font-size: 1.6rem;
+      width: 30ch;
+      margin-bottom: 3.2rem;
+    }
+
+    a:link,
+    a:visited {
+      font-size: 1.2rem;
+      padding: 1.2rem 2.4rem;
+    }
   }
 }
