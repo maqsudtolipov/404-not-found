@@ -4,7 +4,7 @@
 
 > 404 not found page design
 
-
+<img src="https://i.ibb.co/n38YcZH/404-screenshot.png" width="100%">
 
 ## Built With
 
